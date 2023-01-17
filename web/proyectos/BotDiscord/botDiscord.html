@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scalr=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="./css/style_proyect.css">
+    <link rel="stylesheet" href="../../menu/css/style_menu.css">
+    <title>Bot Discord</title>
+</head>
+<body class="body">
+    <div class="botDiscord">
+        <style>#menu-button{
+            filter: invert();
+        }</style>
+        <div id="sidebar">
+            <img id="menu-button" src="../../menu/media/menu.png">
+            <ul id="menu">
+              <li><a style="color:#ffffff;" href="../../../index.html">Datos personales</a></li>
+              <li><a style="color:#ffffff;" href="">Bot Discord</a></li>
+              <li><a style="color:#ffffff;" href="../dino/index.html">Dino GAME</a></li>
+            </ul>
+            <script src="../../menu/js/script_index.js"></script>
+          </div>
+        <div class="titulo">
+            <h1>Bot de Discord desarrollado en JavaScript</h1>
+        </div>
+        
+        <div class="descripcion">
+            <h2><b>Funciones:</b></h2>
+            <li>Crear y eliminar canales temporales</li>
+            <li>Asignar roles automaticamente a nuevos miembros</li>
+            <li>Responder a preguntas complejas</li>
+            <li>Dibujar una imagen a partir de una descripcion</li>
+            <li>Eliminar una cantidad de mensajes, a elegir, de un canal deseado</li>
+            <div class="reproductor">
+                <h3>Reproductor</h3>
+                <li>Reproducir musica desde Youtube(elimina el uso del comando)</li>
+                <li>Reproducir una lista de reproduccion</li>
+                <li>Buscar la letra de la cancion que se esta escuchando</li>
+                <li>Encolar temas para reproducirlos de manera secuencial</li>
+            </div>
+        </div>
+
+        <div class="screenshots">
+            <script src="./js/script.js"></script>
+            <div id="fullscreen" style="display:none">
+                <img id="scrsht-large" src="">
+                <img id="close" src="./media/close.png" onclick="hideFullscreen()">
+                
+            </div>
+            <div id="img1">
+                <img id="scrsht1" src="./media/scrsht1.png" onclick="show(this)">
+                <p><b>Ejemplo de reproduccion de una lista</b></p>
+            </div>
+            <div id="img2">
+                <img id="scrsht2" src="./media/scrsht2.png" onclick="show(this)">
+                <p><b>Uso del comando "help"</b></p>
+            </div>
+            <div id="img3">
+                <img id="scrsht3" src="./media/scrsht3.png" onclick="show(this)">
+                <p><b>Ejemplo de una pregunta compleja</b></p>
+            </div>
+            <div id="img4">
+                <img id="scrsht4" src="./media/scrsht4.png" onclick="show(this)">
+                <p><b>Uso del comando "imagen" para dibujar cualquier cosa</b></p>
+            </div>
+        </div>
+
+        <div>
+            <h3><a style="color:#ffffff;" href="https://github.com/tomasweber1996/Bot">Acceder al repositorio</a></h3>
+        </div>
+    </div>
+</body>
+</html>
